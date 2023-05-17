@@ -18,7 +18,8 @@ body {
     align-items: center;
     padding: 10px 40px;
     width: 100%;
-    background-color: #61d1a1;
+    /* background-color: #61d1a1; */
+    background-color: #5d23c9;
     box-shadow: 0px 2px 2px #666;
     z-index: 150;
     position: relative;
@@ -41,8 +42,10 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 25px 40px;
-    background: -prefix-linear-gradient(top, #56C596, #329D9C);
-    background: linear-gradient(to bottom, #56C596, #329D9C);
+    /* background: -prefix-linear-gradient(top, #56C596, #329D9C);
+    background: linear-gradient(to bottom, #56C596, #329D9C); */
+    background: -prefix-linear-gradient(top, #5d23c9, #329D9C);
+    background: linear-gradient(to bottom, #5d23c9, #329D9C);
     border-radius: 0 0 20px 20px;
     z-index: 100;
     position: relative;
@@ -262,8 +265,11 @@ body {
         }
         .container-footer {
           min-width: 280px;
-          background: -prefix-linear-gradient(top, #329D9C, #56C596);
+          /* background: -prefix-linear-gradient(top, #329D9C, #56C596);
           background: linear-gradient(to bottom, #329D9C,#56C596);
+           */
+           background: -prefix-linear-gradient(top, #329D9C, #5d23c9);
+          background: linear-gradient(to bottom, #329D9C,#5d23c9);
           border-radius: 20px 20px 0 0;
           z-index: 75;
           margin-top: -10px;
